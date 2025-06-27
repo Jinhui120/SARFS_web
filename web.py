@@ -121,7 +121,7 @@ def main():
             st.markdown(f"**{feature_dict[feature]}**: {variable_descriptions[feature]}")
 
     # 主页面标题
-    st.title("Obesity Level Prediction Model Based on Random Forest")
+    st.title("Obesity Level Prediction Model Based on SARFS")
     st.markdown("### Lifestyle and Dietary Habits Assessment")
     
     # 加载模型
