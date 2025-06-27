@@ -17,7 +17,7 @@ if not hasattr(np, 'bool'):
 
 # 设置页面标题和布局
 st.set_page_config(
-    page_title="Obesity Level Prediction Model Based on Random Forest",
+    page_title="Obesity Level Prediction Model Based on SARFS",
     page_icon="⚖️",
     layout="wide"
 )
@@ -84,7 +84,7 @@ def main():
     global feature_names, feature_dict, variable_descriptions
 
     # 侧边栏标题
-    st.sidebar.title("Obesity Level Prediction Model Based on Random Forest")
+    st.sidebar.title("Obesity Level Prediction Model Based on SARFS")
 
     # 添加系统说明到侧边栏
     st.sidebar.markdown("""
